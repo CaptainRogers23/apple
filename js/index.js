@@ -103,7 +103,7 @@ $(function () {
 		
 	});
 	$('.nav-wrap a').click(function (){
-		//获得板块相对于原点的位置 hash获得锚点名称
+		//获得板块相对于原点的位置
 		var top = $(this.hash).offset().top - navHeight + 7;
 		
 		$('html,body').animate({scrollTop:top},1000);
